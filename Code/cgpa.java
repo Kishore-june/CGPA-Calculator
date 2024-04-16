@@ -12,17 +12,6 @@ public class cgpa implements cgpa {
         System.out.print("How Many Subject Do You Have ");
         Scanner get = new Scanner(System.in);
         final int totalSubject = get.nextInt();
-        // int Subject = get.nextInt();
-        // System.out.println("So,You Have " + Subject);
-        // System.out.println("enter the marks");
-        // int getValue = Subject + 1;
-        // for (int i = 1; i <= Subject; i++) {
-        // int numbers[] = new int[Subject];
-        // System.out.print(i + " ");
-        // if (i != getValue)
-        // numbers[i] = get.nextInt();
-        // else
-        // System.out.println("that's it");
         String subMark[][] = new String[totalSubject][2];
         System.out.println("enter all the subject that you have \"Press enter for each subject\"");
         for (int i = 0; i < (totalSubject); i++)
