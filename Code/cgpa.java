@@ -1,19 +1,16 @@
-
 import java.util.Scanner;
 
 public class CGPACalculator {
     public static void main(String[] args) {
-        System.out.println("Fill the Answer to get CGPA Accurate result");
+        System.out.println("Fill the Answer to get CGPA result");
         System.out.print("How Many Subject Do You Have: ");
         Scanner scanner = new Scanner(System.in);
         final int totalSubject = scanner.nextInt();
         String subMark[][] = new String[totalSubject][2];
-        System.out.println("Enter all the subject that you have (Press enter after each subject)");
-        for (int i = 0; i < totalSubject; i++)
-            subMark[i][0] = scanner.next();
-        System.out.println("Enter the Marks respective for the subjects");
+            System.out.println("Enter the Marks");
         for (int j = 0; j < totalSubject; j++) {
-            System.out.print(subMark[j][0] + " = ");
+            System.out.print(++j + " = ");
+            --j;
             subMark[j][1] = scanner.next();
         }
         int total = 0;
