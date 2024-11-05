@@ -1,24 +1,17 @@
-# CGPA---java
-CGPA calculator using Java.
-This Java program calculates the Cumulative Grade Point Average (CGPA) based on the marks of various subjects provided by the user.
+# CGPA Calculator (Java)
 
-How It Works:
-User Input:
+A Java program to calculate the Cumulative Grade Point Average (CGPA) based on user-provided subject marks.
 
-The program prompts the user to enter the total number of subjects.
+**How it works:**
 
-It then asks the user to enter the marks for each subject.
+1. **User Input:** 
+   - Prompts the user to enter the total number of subjects.
+   - Asks the user to input marks for each subject.
 
-Calculation:
+2. **Calculation:** 
+   - Calculates the total and average marks of all subjects.
+   - Prompts the user to enter the total possible marks for the exam.
 
-The program calculates the total and average marks of the subjects.
-
-The user is then asked to enter the total marks for the exam.
-
-CGPA Calculation:
-
-The CGPA is calculated using the average marks and the total marks provided by the user.
-
-If the average mark is less than the total exam mark, the program calculates the CGPA.
-
-If the average mark is not less than the total exam mark, an error message is displayed.
+3. **CGPA Calculation:**
+   - Calculates the CGPA using the average marks and total possible marks.
+   - Displays an error message if the average mark exceeds the total possible marks.
