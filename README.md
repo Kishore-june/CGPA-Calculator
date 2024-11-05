@@ -1,2 +1,2 @@
 # CGPA---java
-CGPA calculator using Java 
+CGPA calculator using Java.
